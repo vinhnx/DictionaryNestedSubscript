@@ -1,15 +1,26 @@
-import XCTest
 @testable import DictionaryNestedSubscript
+import XCTest
 
 final class DictionaryNestedSubscriptTests: XCTestCase {
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(DictionaryNestedSubscript().text, "Hello, World!")
+        let dictionary: [String: Any] = [
+            "countries": [
+                "japan": [
+                    "capital": [
+                        "name": "tokyo",
+                        "lat": "35.6895",
+                        "lon": "139.6917"
+                    ],
+                    "language": "japanese"
+                ]
+            ]
+        ]
+
+        let result = dictionary[jsonDict: "countries"]?[jsonDict: "japan"]?[jsonDict: "capital"]?["name"] as? String
+        XCTAssertEqual(result, "tokyo")
     }
 
     static var allTests = [
-        ("testExample", testExample),
+        ("testExample", testExample)
     ]
 }
