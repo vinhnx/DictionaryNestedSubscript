@@ -4,14 +4,14 @@ A Swift Package that enable nested `subscript` on `Dictionary`.
 
 ```swift
 let dictionary: [String: Any] = [
-"countries": [
-    "japan": [
-        "capital": [
-            "name": "tokyo",
-            "lat": "35.6895",
-            "lon": "139.6917"
-        ],
-        "language": "japanese"
+    "countries": [
+        "japan": [
+            "capital": [
+                "name": "tokyo",
+                "lat": "35.6895",
+                "lon": "139.6917"
+            ],
+            "language": "japanese"
         ]
     ]
 ]
