@@ -8,9 +8,9 @@ I will publish this package to GitHub Package Registry when it comes out from be
 
 ### Usage
 
+```swift
 import DictionaryNestedSubscript
 
-```swift
 let dictionary: [String: Any] = [
     "countries": [
         "japan": [
