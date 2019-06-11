@@ -56,5 +56,5 @@ dictionary[jsonDict: "countries"]?[jsonDict: "japan"]?[jsonDict: "capital"]?["na
 ### References
 
 + https://developer.apple.com/documentation/swift_packages/creating_a_swift_package_with_xcode
-+ https://github.com/krzyzanowskim/CollectionSafeIndex (for the idea :happy:)
++ https://github.com/krzyzanowskim/CollectionSafeIndex (for the idea :smile:)
 + https://stackoverflow.com/a/41543070/1477298 (for the logic :rocket:)
