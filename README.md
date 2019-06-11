@@ -1,6 +1,6 @@
 # DictionaryNestedSubscript
 
-Enable nested `subscript` on Dictionary.
+Enable nested `subscript` on `Dictionary`.
 
 ```swift
 let dictionary: [String: Any] = [
