@@ -8,6 +8,8 @@ I will publish this package to GitHub Package Registry when it comes out from be
 
 ### Usage
 
+import DictionaryNestedSubscript
+
 ```swift
 let dictionary: [String: Any] = [
     "countries": [
