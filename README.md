@@ -27,16 +27,26 @@ dictionary[jsonDict: "countries"]?[jsonDict: "japan"]?[jsonDict: "capital"]?["na
 
 ### Integration (requires Xcode 11+)
 
+1. from your project, Choose `Xcode > File > Swift Packages > Add Package Dependency...`
+
 ![demo](./screenshot/step_1.png)
+
+2. put `https://github.com/vinhnx/DictionaryNestedSubscript` under `Choose Package Repository` field
 
 ![demo](./screenshot/step_2.png)
 
+3. (optional) specify the version or branch or specific commit you want to use from the package
+
 ![demo](./screenshot/step_3.png)
+
+4. then click `Next` for Xcode to resolve the package.
 
 ![demo](./screenshot/step_4.png)
 
+5. Choose where to add Package framework to your app's target
+
 ![demo](./screenshot/step_5.png)
 
-![demo](./screenshot/step_6.png)
+6. Profit :smile:
 
-Profit (?!) :rocket::smile:
+![demo](./screenshot/step_6.png)
