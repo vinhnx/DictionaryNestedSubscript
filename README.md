@@ -2,10 +2,6 @@
 
 A Swift Package that enable nested `subscript` on `Dictionary`.
 
-I will publish this package to GitHub Package Registry when it comes out from beta.
-
-> https://github.blog/2019-06-03-github-package-registry-will-support-swift-packages/
-
 ### Usage
 
 ```swift
